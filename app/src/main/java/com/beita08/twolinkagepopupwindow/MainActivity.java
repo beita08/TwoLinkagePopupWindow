@@ -2,6 +2,7 @@ package com.beita08.twolinkagepopupwindow;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
@@ -10,12 +11,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tvClassFirst;
     private TextView tvClassSecond;
 
-    /*
-    private ListView    firstListView;
-    private ListView    secondListView;
-    */
-
-    //private
+    private RecyclerView firstRecyclerView;
+    private RecyclerView secondRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
