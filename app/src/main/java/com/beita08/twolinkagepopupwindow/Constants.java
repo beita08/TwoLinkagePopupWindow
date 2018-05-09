@@ -1,11 +1,5 @@
 package com.beita08.twolinkagepopupwindow;
 
-/**
- * Description:
- * Company    : shifeier
- * Author     : liuxb
- * Date       : 2018/5/6 21:28
- */
 
 public class Constants {
 
@@ -16,8 +10,7 @@ public class Constants {
             "新疆维吾尔自治区", "台湾省", "香港特别行政区", "澳门特别行政区"
     };
 
-
-    private final String[][] secondClassStr = {
+    public static final String[][] secondClassStr = {
             {"东城区", "西城区", "朝阳区", "丰台区", "石景山区", "海淀区", "门头沟区", "房山区", "通州区", "顺义区", "昌平区", "大兴区", "怀柔区", "平谷区", "密云区", "延庆区"},
             {"和平区", "河东区", "河西区", "南开区", "河北区", "红桥区", "东丽区", "西青区", "津南区", "北辰区", "武清区", "宝坻区", "滨海新区", "宁河区", "静海区", "蓟州区"},
             {"石家庄市", "唐山市", "秦皇岛市", "邯郸市", "邢台市", "保定市", "张家口市", "承德市", "沧州市", "廊坊市", "衡水市"},
